@@ -6,7 +6,7 @@ const getTargetDomain = (host, rootDomain) => {
   return host.split(`.${rootDomain}`)[0]; 
 }
  
-const ownDomain = "serp.ing";
+const ownDomain = "www.xvideos.com";
 
 async function handleRequest(request) {
   const url = new URL(request.url);
